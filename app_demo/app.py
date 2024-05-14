@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 # Function to read CSV file and store data in a global variable
-@st.cache
+@st.cache_data
 def load_data(file):
     return pd.read_csv(file)
 
